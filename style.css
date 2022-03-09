@@ -1,0 +1,43 @@
+body {
+
+    background-color: blanchedalmond;
+}
+
+input {
+    border-style: double;
+    height: 20px;
+    font-weight: bold;
+}
+
+button {
+    font-weight: bolder;
+    border-radius: 2px;
+
+    padding: 5px;
+}
+
+#addButton {
+    background-color: green;
+    color: white;
+}
+
+#clearButton {
+    background-color: red;
+    color: white;
+}
+
+.paragraph.stlye {
+    cursor: pointer;
+    float: left;
+}
+
+button:hover {
+    opacity: 0.7;
+    transition: 0.4s;
+}
+
+#toDoContainer {
+    color: rgb(53, 53, 53);
+    font-weight: bold;
+    font-size: large;
+}
